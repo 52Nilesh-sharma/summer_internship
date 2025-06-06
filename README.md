@@ -1,3 +1,1 @@
 ﻿# summer_internship
-# summer_internship
-# summer_internship
