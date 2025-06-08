@@ -3,7 +3,7 @@ import google.generativeai as genai
 import fitz  # PyMuPDF for PDF text extraction
 
 # 🔐 Step 1: Configure Gemini API
-genai.configure(api_key="AIzaSyDdMZbIwXtOAi0A3hCl6T4eJHpB_6qrw7Q")  # Replace with your actual key
+genai.configure(api_key="api key")  # Replace with your actual key
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Create a persistent chat object with memory
