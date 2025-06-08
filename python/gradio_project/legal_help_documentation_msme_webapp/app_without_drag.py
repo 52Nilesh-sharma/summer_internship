@@ -2,7 +2,7 @@ import gradio as gr
 import google.generativeai as genai
 
 # 🔐 Configure Gemini API
-genai.configure(api_key="AIzaSyDdMZbIwXtOAi0A3hCl6T4eJHpB_6qrw7Q")  # Replace with your Gemini API Key
+genai.configure(api_key="Api_key")  # Replace with your Gemini API Key
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(history=[])
